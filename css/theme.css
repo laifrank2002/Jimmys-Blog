@@ -1,0 +1,114 @@
+/* reset everything that the browser does in order to trick us */
+html,body,div {
+	margin: 0;
+	padding: 0;
+}
+
+/* new global themes */
+body {
+	position: relative;
+	font-family: "Arial","Sans Serif";
+	background-color: #f7f7f7;
+}
+
+.theme_colour {
+	color: #96beff;
+	background-color: white;
+}
+
+.theme_colour_inverse {
+	color: white;
+	background-color: #96beff;
+}
+
+.shadow {
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+}
+/* navbar stuff */
+header {
+	padding: 15px;
+	min-height: 120px;
+}
+
+header .subtitle {
+	font-weight: normal;
+	font-style: italic;
+	
+}
+
+#banner {
+	float: left;
+}
+
+#navbar {
+	float: right;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	
+}
+
+header ul li {
+	font-size: 1.5em;
+	display: inline-block;
+	padding: 15px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+header ul li a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* content */
+#content {
+	margin: 0 20% 0 20%;
+	min-height: 100vh;
+	padding-bottom: 250px; /* footer height */
+}
+
+/* footer */
+footer {
+	bottom: 0;
+	position: absolute;
+	height: 250px; 
+	width: 100%;
+}
+
+footer p {
+	padding: 15px;
+}
+/* customize posts */
+.post {
+	margin: 10px;
+	margin-bottom: 25px;
+	padding: 25px;
+	border: 1px solid #dee8f9;
+	
+	background-color: white;
+}
+
+.post h1 {
+	color: #96beff;
+	text-decoration: none;
+}
+
+.post h1 a {
+	color: inherit;
+	text-decoration: none;
+}
+.post h1 a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+.preview {
+	
+}
